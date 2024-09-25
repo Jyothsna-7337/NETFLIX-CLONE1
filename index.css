@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: #181818;
+    color: aliceblue;
+}
+nav .logo img{
+    object-fit: contain;
+    max-width: 10%;
+}
+nav{
+    background-color: black;
+    display: flex;
+}
+nav .actions{
+    display: flex;
+    margin: 3px;
+}
+nav .actions button{
+    background-color: red;
+    color: #fff;
+    padding: 2px 4px;
+    border: none;
+     border-radius: 2px;
+     font-size: 15px;
+     font-weight: 600;
+     font-family: Arial, Helvetica, sans-serif;
+}
+nav .actions .login{
+    background-color: transparent;
+    border: 2px solid white;
+}
+.banner{
+    background: linear-gradient(90deg,#181818 12%,hsla(0,0%,9%,.98) 15%,hsla(0,0%,9%,.97) 17%,hsla(0,0%,9%,.95) 20%,hsla(0,0%,9%,.94) 23%,hsla(0,0%,9%,.92) 26%,hsla(0,0%,9%,.9) 28%,hsla(0,0%,9%,.87) 30%,hsla(0,0%,9%,.82) 33%,hsla(0,0%,9%,.75) 35%,hsla(0,0%,9%,.63) 38%,hsla(0,0%,9%,.45) 42%,hsla(0,0%,9%,.27) 45%,hsla(0,0%,9%,.15) 47%,hsla(0,0%,9%,.08) 49%,hsla(0,0%,9%,.03) 51%,hsla(0,0%,9%,0)),url(https://occ-0-4857-2164.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABe3jnfCzmGqFiYSy9tLOOAKE4wa4nFgRi7JvbzihoD262M-APwL-jTjpMoET29cjBomlBUOd3NEGMDRk4fV2IxvO3ox24QputUP8.jpg?r=f9c);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    max-width: 100%;
+    height: 100vh;
+}
+.banner-tittle img{
+    object-fit: contain;
+    max-width: 40%;
+    padding: 10px 0px;
+}
+.banner-contain{
+    padding: 7% 5%;
+}
+.banner-tittle h1{
+    font-size: xx-large;
+    padding: 10px 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 0px;
+}
+.banner-tittle h3{
+    color: #a3a3a3;
+    padding: 10px 0px;
+}
+.banner-tittle p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    max-width: 50%;
+    padding: 10px 0px;
+    padding: 10px 0px;
+}
+.banner-tittle span{
+  color: #fff
+}
+.box{
+    border: 2px solid #a3a3a3;
+    padding: 2px;
+}
